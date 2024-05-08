@@ -37,6 +37,10 @@ return {
         require("telescope.builtin").find_files { hidden = true, no_ignore = true }
       end,
     },
+    ["<Up>"] = { "<Nop>" },
+    ["<Down>"] = { "<Nop>" },
+    ["<Left>"] = { "<Nop>" },
+    ["<Right>"] = { "<Nop>" },
   },
   t = {
     -- setting a mapping to false will disable it
